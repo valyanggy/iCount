@@ -1,0 +1,37 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+  }
+ 
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
+    height: auto;
+    
+}
+#reset{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50%;
+}
+
+#count{
+    font-size: 20em;
+    padding: 1rem 1rem;
+
+}
+
+#countButton{
+    position: absolute;
+    top: 10%;
+    /* padding: .1em .1em; */
+  }
+#resetButton{
+
+    padding: 5px 5px;
+  }
